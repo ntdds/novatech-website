@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | NovaTech</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  <div id="page-wrapper">
+    <div id="left-nav"></div>
+    <main id="content">
+      <h2>DIRECT DIGITAL SYNTHESIZER (DDS) TECHNOLOGY OVERVIEW</h2>
+      <p>Novatech Instruments, Inc. specializes in developing signal generator products using DDS technology. This technology makes it possible to provide programmable clock and sinewave generators that are phase continuous, phase synchronous, phase aligned and/or frequency agile at low cost to the purchaser.</p>
+      <p>The heart of these products consists of a DDS Application Specific Integrated Circuit (ASIC). Two common ASICs we use are the Analog Devices AD9854 and AD9959. Our frequency generators incorporate a crystal oscillator that generates a squarewave clock input to the DDS ASIC. They also incorporate a microprocessor that communicates with the user over a serial interface.</p>
+      <p>In a typical application, the user tells our sinewave generator to output a specific frequency by sending a short text string, via the serial interface, to our microprocessor. Our microprocessor will compute a phase value and load this phase value into the phase register of the DDS ASIC. Then, every time our on-board oscillator sends a clock pulse to the DDS ASIC, the ASIC will advance the phase of the output by the amount of phase previously loaded into the DDS ASIC phase register. This advancing phase value is used to drive an Analog to Digital Converter which is then amplified and filtered to produce the desired frequency output.</p>
+      <div class="contact-info">
+        <strong>Novatech Instruments</strong><br>
+        19125 North Creek Parkway, #120<br>
+        Bothell, WA 98011<br>
+        (206) 301-8986<br>
+        <a href="mailto:sales@novatechsales.com">sales@novatechsales.com</a>
+      </div>
+      <p>Last Updated March 26, 2026</p>
+      <p>Legacy (deprecated) website: <a href="http://novatech-instr.com/index.html">http://novatech-instr.com/index.html</a></p>
+      <p>Novatech Instruments is a trade name owned by Brett Associates, Inc.</p>
+    </main>
+  </div>
+  <script src="js/includes.js"></script>
+</body>
+</html>
